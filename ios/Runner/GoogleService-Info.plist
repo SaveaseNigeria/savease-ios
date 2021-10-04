@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>654386570233-buidjige5s63ge73v2mhbbrim1dh46cd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.654386570233-buidjige5s63ge73v2mhbbrim1dh46cd</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>654386570233-kigpqmkcjpnc743v2q7mucjbj7ampf2s.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCms7BqxRuIgR1aS2QuWGPjr1Wp6R4jqGE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>654386570233</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.saveaseng.saveasengg</string>
+	<key>PROJECT_ID</key>
+	<string>savease-nigeria</string>
+	<key>STORAGE_BUCKET</key>
+	<string>savease-nigeria.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:654386570233:ios:b98937d11dda72e0061328</string>
+	<key>DATABASE_URL</key>
+	<string>https://savease-nigeria.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,208 @@
+name: savease
+description: A new Flutter application.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: 0.4.3
+  connectivity: 0.3.2
+  font_awesome_flutter: 8.4.0
+  date_format: 1.0.6
+  http: ^0.12.0+2
+  xml: ^3.3.0
+  path_provider: ^1.1.0
+  flutter_launcher_icons: ^0.7.2
+  xml2json: ^3.0.3
+  progress_dialog: ^1.1.0+1
+  toast: ^0.1.5
+  rflutter_alert: ^1.0.2
+  provider: ^2.0.0
+  flutter_paystack: ^1.0.1
+  credit_card_type_detector: ^1.0.0
+  flutter_masked_text: ^0.8.0
+  flutter_credit_card: 0.1.1
+  intl: ^0.15.8
+  share_extend: ^1.0.9
+  pinput: ^0.1.10
+  flutter_mailer: ^0.4.1+1
+  keyboard_avoider: ^0.1.2
+  url_launcher: ^5.1.2
+  keyboard_actions: ^2.1.2
+  keyboard_visibility: ^0.5.6
+  firebase_database: 3.1.0
+  firebase_auth: ^0.15.0+1
+  flutter_svg: ^0.14.1
+  device_info: ^0.4.0+2
+  device_apps: ^1.0.8
+  grouped_buttons: ^1.0.4
+  flutter_spinkit: ^4.0.0
+  firebase_messaging: ^5.1.8
+  dropdown_banner: ^1.4.0
+  permission_handler: ^3.0.1
+  google_maps_flutter: ^0.5.19
+  location: ^2.3.5
+  barcode_scan: ^0.0.4
+  qr_flutter:
+    git:
+      url: git://github.com/lukef/qr.flutter.git
+      ref: 2.0.0-dev.1
+
+
+
+
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/image/lo.jpeg"
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+
+  assets:
+    - assets/image/logo.png
+    - assets/image/bne.png
+    - assets/image/Freedom.png
+    - assets/image/Happiness.png
+    - assets/image/Passionate.png
+    - assets/image/Teaching.png
+    - assets/image/Trust.png
+    - assets/image/sad.png
+    - assets/image/smiley.png
+    - assets/image/log.png
+    - assets/image/Group.png
+    - assets/image/purse.png
+    - assets/image/settings.png
+    - assets/image/verify.png
+    - assets/image/complain.png
+    - assets/image/guide.png
+    - assets/image/power.png
+    - assets/image/about.png
+    - assets/image/rectangle.png
+    - assets/image/fund.png
+    - assets/image/document.png
+    - assets/image/report.png
+    - assets/image/voucher.png
+    - assets/image/cardfive.png
+    - assets/image/cardonethousand.png
+    - assets/image/fivethousand.png
+    - assets/image/onehundred.jpg
+    - assets/image/tenthousand.png
+    - assets/image/twohundred.png
+    - assets/image/twothousand.png
+    - assets/image/white.png
+    - assets/image/Withdraw.png
+    - assets/image/business.png
+    - assets/image/danger.png
+    - assets/image/whatsapp.png
+    - assets/image/bt_ic_amex.png
+    - assets/image/bt_ic_diners_club.png
+    - assets/image/bt_ic_discover.png
+    - assets/image/bt_ic_hiper.png
+    - assets/image/bt_ic_hipercard.png
+    - assets/image/bt_ic_jcb.png
+    - assets/image/bt_ic_maestro.png
+    - assets/image/bt_ic_mastercard.png
+    - assets/image/bt_ic_unionpay.png
+    - assets/image/bt_ic_visa.png
+    - assets/image/user.png
+    - assets/image/icons.png
+    - assets/image/icon.png
+    - assets/image/icon.jpg
+    - assets/image/dummy.jpg
+    - assets/image/newlogo.jpg
+    - assets/image/trust.svg
+    - assets/image/teaching.svg
+    - assets/image/passionate.svg
+    - assets/image/happiness.svg
+    - assets/image/freedom.svg
+    - assets/image/rect.png
+    - assets/image/scanqr.png
+    - assets/image/myqr.png
+    - assets/image/mp.png
+    - assets/image/recttwo.png
+    - assets/image/location.png
+    - assets/image/loca.png
+    - assets/image/rd.png
+    - assets/image/bone.jpeg
+    - assets/image/btwo.jpeg
+    - assets/image/bthree.jpeg
+    - assets/image/bfour.jpeg
+    - assets/image/bfive.jpeg
+    - assets/image/bsix.jpeg
+    - assets/image/rect.svg
+    - assets/image/rectangle.svg
+    - assets/image/lo.jpeg
+
+  fonts:
+    - family: sfprodisplayblack
+      fonts:
+        - asset: fonts/sfprodisplayblack.ttf
+
+    - family: sfprodisplaybold
+      fonts:
+        - asset: fonts/sfprodisplaybold.ttf
+
+
+    - family: sfprodisplayheavy
+      fonts:
+        - asset: fonts/sfprodisplayheavy.ttf
+
+
+    - family: sfprodisplaylight
+      fonts:
+        - asset: fonts/sfprodisplaylight.ttf
+
+
+
+    - family: sfprodisplaymedium
+      fonts:
+        - asset: fonts/sfprodisplaymedium.ttf
+
+
+    - family: sfprodisplayregular
+      fonts:
+        - asset: fonts/sfprodisplayregular.ttf
+
+
+    - family: sfprodisplaythin
+      fonts:
+        - asset: fonts/sfprodisplaythin.ttf
+    - family:  MyFlutterApp
+      fonts:
+        - asset: fonts/MyFlutterApp.ttf
+
+
+
